@@ -1,0 +1,73 @@
+# ---------- OS / editor cruft ----------
+.DS_Store
+Thumbs.db
+desktop.ini
+ehthumbs.db
+ehthumbs_vista.db
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+.vs/
+*.sublime-project
+*.sublime-workspace
+
+# ---------- Logs ----------
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ---------- Environment / secrets ----------
+.env
+.env.*
+!.env.example
+*.local
+
+# ---------- Backups & temp files ----------
+*.bak
+*.orig
+*.tmp
+*.tmp.*
+*.old
+*.backup
+*.pid
+*.pid.lock
+*.seed
+
+# ---------- Caches ----------
+.cache/
+.temp/
+.tmp/
+tmp/
+temp/
+
+# ---------- Build / dependency output ----------
+node_modules/
+vendor/
+bower_components/
+jspm_packages/
+.next/
+.nuxt/
+.parcel-cache/
+.svelte-kit/
+.astro/
+dist/
+build/
+out/
+coverage/
+.nyc_output/
+
+# ---------- Compiled / generated files ----------
+*.tsbuildinfo
+*.pyc
+*.pyo
+__pycache__/
+*.egg-info/
+
+# ---------- Windows OneDrive sync conflicts ----------
+* - Copy
+* (Conflict *
+*.~lock.*
